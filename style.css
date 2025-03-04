@@ -1,0 +1,234 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+ul {
+    gap: 16px;
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.container {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px;
+    align-self: stretch;
+    /* justify-content:center; */
+}
+
+.footer-container {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px;
+    align-self: stretch;
+    /* justify-content:center; */
+}
+
+/* ==================================================================================== */
+/* ==================================== hero rules ==================================== */
+/* ==================================================================================== */
+
+.hero {
+    margin:0px 20px;
+    background-color: black;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+    justify-content: center;
+}
+
+.header {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: auto;
+}
+
+.logo {
+    color:white;
+}
+
+.content {
+    color: white;
+    margin-bottom: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.text {
+    width: 300px;
+    flex-grow: 0;
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+    /* background-color: grey; */
+    flex: 1;
+}
+
+.image {
+    background-color: grey;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+}
+
+.text .heading {
+    font-size:48px;
+}
+
+.sign-button{
+    padding:5px 10px;
+}
+
+.intro {
+    font-size: 18px;
+}
+
+/* ==================================================================================== */
+/* ==================================== info rules ==================================== */
+/* ==================================================================================== */
+
+.info {
+    padding-top: 40px;
+    gap: 40px;
+    display: flex;
+    margin:0px 20px;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 400px;
+}
+
+.info .heading {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.cards {
+    display:flex;
+    gap: 30px;
+}
+
+.card {
+    border: 1px solid #5e5e5e;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.card-text {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* ==================================================================================== */
+/* =================================== quote rules ==================================== */
+/* ==================================================================================== */
+
+.quote {
+    background-color: grey;
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    padding: 80px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    /* flex-grow: 0;
+    flex-shrink: 1; */
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 24px;
+    /* flex: 1; */
+}
+
+.quote-sayer {
+    color:black;
+    font-size:18px;
+    align-self: stretch;
+    font-weight:800;
+    display: flex;
+    padding-right:26px;
+    justify-content: flex-end;
+}
+
+
+/* ==================================================================================== */
+/* ==================================== cta rules ===================================== */
+/* ==================================================================================== */
+
+.cta {
+    background-color: black;
+    display: flex;
+    flex: 1;
+    margin: 100px;
+    border-radius: 8px;
+}
+
+.cta-content {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin: 0px 60px;
+}
+
+.cta-text {
+    color: white;
+    display:flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.cta-header {
+    color: white;
+    font-weight: 800;
+    font-size:24px;
+    display:flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.cta-button{
+    padding:5px 10px;
+}
+
+/* ==================================================================================== */
+/* ==================================== footer rules ===================================== */
+/* ==================================================================================== */
+
+.footer {
+    display:flex;
+    flex:1;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+}
